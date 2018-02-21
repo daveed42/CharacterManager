@@ -30,6 +30,25 @@ body {
     padding-top: 10px;
 }
 
+#sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float:left;
+    width:5%;
+    height: 100vh;
+    background-color:white;
+    margin: 0;
+}
+
+#main {
+    width:95%;
+    height: 1500px;
+    padding-left: 5%;
+    background-color:grey;
+    margin: 0;
+}
+
 a:link {
     color: white;
     background-color: transparent;
