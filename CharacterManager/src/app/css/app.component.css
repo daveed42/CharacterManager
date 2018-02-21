@@ -8,10 +8,39 @@ body {
     padding-left: 10px;
     padding-top: 0;
     min-height: 40px;
+    max-height: 40px;
 }
 
 #title {
     margin: 0;
     color: white;
-    padding-top: 0;
+    float: left;
+    padding-top: 4px;
+}
+
+#donate {
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
 }
