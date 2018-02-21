@@ -1,0 +1,13 @@
+#icons .material-icons {
+    width:100%;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}

@@ -42,11 +42,10 @@ body {
 }
 
 #main {
-    width:95%;
+    width:94%;
     height: 1500px;
     padding-left: 5%;
-    background-color:grey;
-    margin: 0;
+    margin-left: 1%;
 }
 
 a:link {
