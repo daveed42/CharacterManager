@@ -18,6 +18,12 @@ body {
     padding-top: 4px;
 }
 
+#info {
+    float: right;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
 #donate {
     float: right;
     padding-right: 10px;
