@@ -1,0 +1,128 @@
+#container {
+    height: 10%;
+    width: 99%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1.5% 20% 5% 10% 10% 10% 10% 10%;
+    grid-template-rows: 21% 21% 21% 21%;
+    background-color: #2196F3;
+    padding: 1px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+.grid-item1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 36px;
+}
+
+.name {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grid-item2 {
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.level {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grid-item3 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.class {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-item4 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.exp {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-item5 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+.background {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-item6 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.alignment {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.grid-item7 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.race {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.grid-item8 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.playerName {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
